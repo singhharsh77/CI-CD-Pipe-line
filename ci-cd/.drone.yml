@@ -1,0 +1,21 @@
+kind: pipeline
+type: docker
+name: default
+
+steps:
+
+- name: build-backend
+  image: docker
+  commands:
+    - docker build -t backend-app ./backend
+
+- name: build-frontend
+  image: docker
+  commands:
+    - docker build -t frontend-app ./frontend
+
+- name: deploy
+  image: docker
+  commands:
+    - docker-compose down
+    - docker-compose up -d --build
