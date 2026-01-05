@@ -7,14 +7,14 @@ using **Docker, Nginx, CI/CD**, and **high availability design principles**.
 
 ## 🧠 Architecture Overview
 
-User
-↓
-Nginx (Reverse Proxy)
-↓
-Frontend (UI)
-↓
-Backend (API)
-↓
+User<br>
+↓<br>
+Nginx (Reverse Proxy)<br>
+↓<br>
+Frontend (UI)<br>
+↓<br>
+Backend (API)<br>
+↓<br>
 PostgreSQL (Database)
 
 
@@ -44,7 +44,7 @@ Frontend → http://localhost
 
 Backend API → http://localhost/api
 
-Database → localhost:5432
+Database → http://localhost:5432
 
 ### 🏗️ System Design Principles Used
 1️⃣ Separation of Concerns
