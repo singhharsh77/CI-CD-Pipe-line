@@ -1,10 +1,30 @@
-# High Availability Docker Application 🚀
+# CI/CD Pipe Line 🚀
 
 This project demonstrates a **production-style containerized architecture**
 using **Docker, Nginx, CI/CD**, and **high availability design principles**.
 
 ---
+### 📁 Repository Structure
 
+CI/CD Pipe-Line/
+│<br>
+├── docker-compose.yml<br>
+├── nginx/<br>
+│   └── nginx.conf<br>
+│<br>
+├── backend/<br>
+│   └── Dockerfile<br>
+│<br>
+├── frontend/<br>
+│   └── Dockerfile<br>
+│<br>
+├── ci-cd/<br>
+│   ├── Jenkinsfile<br>
+│   └── .drone.yml<br>
+│<br>
+└── README.md
+
+---
 ## 🧠 Architecture Overview
 
 User<br>
